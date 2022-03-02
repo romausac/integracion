@@ -1,0 +1,25 @@
+<div style="text-align: center;">
+  <h1>Analisis y Diseño 2</h1>
+  <h1>Practica 1</h1>
+  <br>
+  <h1>ROMARIO DAVID CASTILLO ECHEVERRÍA</h1>
+  <h1>201314064</h1>   
+</div>
+<div style="padding: 50px; align-content: flex-start;">
+  <h3>Ingresa tu nombre</h3>
+  <input
+      #nombreUsuario
+      id="nombre"
+      type="search"
+      class="form-control rounded"
+      placeholder="Nombre"
+      aria-label="Search"
+      aria-describedby="search-addon"
+    />
+    <button type="button" class="btn btn-primary" (click)="asignarNombre(nombreUsuario.value)">Aceptar</button>
+
+      
+</div> 
+<p>{{ bienvenida }}</p>
+
+<router-outlet></router-outlet>
